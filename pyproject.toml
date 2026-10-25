@@ -1,0 +1,16 @@
+[project]
+name = "taller-rl-1"
+version = "0.1.0"
+description = "Entorno sencillo de trading para el taller de aprendizaje por refuerzo"
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium>=0.29",
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+notebook = [
+    "ipykernel>=6.25",
+    "jupyterlab>=4.0",
+]
